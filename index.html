@@ -41,44 +41,44 @@
 </head>
 
 <body class="bg-[--background-color] m-0 overflow-x-hidden">
-    <header class="w-[60vw] mx-auto mt-2 rounded-md py-4 px-6 bg-white/90 z-10 shadow">
-        <ul class="flex items-center justify-center gap-x-4">
-            <li><a class="nav-link px-6 py-1 rounded-md hover:bg-[--primary-color] hover:text-white transition ease-linear active" href="javascript:void(0);">Trang chủ</a></li>
-            <li><a class="nav-link px-6 py-1 rounded-md hover:bg-[--primary-color] hover:text-white transition ease-linear " href="javascript:void(0);">Giới thiệu</a></li>
-            <li><a class="nav-link px-6 py-1 rounded-md hover:bg-[--primary-color] hover:text-white transition ease-linear " href="javascript:void(0);">Liên hệ</a></li>
+    <header class="lg:w-[60vw] w-[80vw] mx-auto mt-2 rounded-md py-4 px-6 bg-white/90 z-10 shadow">
+        <ul class="flex items-center justify-center lg:gap-x-4 gap-x-2">
+            <li><a class="nav-link lg:text-base text-sm lg:px-6 px-3 py-1 rounded-md hover:bg-[--primary-color] hover:text-white transition ease-linear active" href="javascript:void(0);">Trang chủ</a></li>
+            <li><a class="nav-link lg:text-base text-sm lg:px-6 px-3 py-1 rounded-md hover:bg-[--primary-color] hover:text-white transition ease-linear " href="javascript:void(0);">Giới thiệu</a></li>
+            <li><a class="nav-link lg:text-base text-sm lg:px-6 px-3 py-1 rounded-md hover:bg-[--primary-color] hover:text-white transition ease-linear " href="javascript:void(0);">Liên hệ</a></li>
         </ul>
     </header>
     <main class="w-screen">
-        <secction class="hero-section w-screen h-[90vh] flex items-center justify-between">
+        <secction class="hero-section w-screen lg:h-[90vh] h-[50vh] flex items-center justify-between">
             <div class="w-1/2 h-full relative">
-                <div class="absolute top-28 left-44"><img id="heart-icon" alt=""></div>
-                <div class="absolute top-[40%] left-28"><img class="w-[300px]" id="book-icon" alt=""></div>
-                <div class="absolute top-20 right-20"><img class="w-[300px]" id="book-scale-icon" alt=""></div>
-                <div class="absolute bottom-36 right-[20%] rotate-[25deg]"><img id="heart-beat-icon" alt=""></div>
+                <div class="absolute top-28 lg:left-44 -left-10 lg:scale-100 scale-[25%] z-10"><img id="heart-icon" alt=""></div>
+                <div class="absolute lg:top-[40%] top-1/2 lg:left-28 left-8"><img class="lg:w-[300px] w-[100px]" id="book-icon" alt=""></div>
+                <div class="absolute lg:top-20 top-28 lg:right-20 right-8"><img class="lg:w-[300px] w-[100px]" id="book-scale-icon" alt=""></div>
+                <div class="absolute lg:bottom-36 bottom-14 lg:right-[20%] -right-10 rotate-[25deg] lg:scale-100 scale-50"><img id="heart-beat-icon" alt=""></div>
             </div>
             <div class="w-1/2">
-                <h1 class="text-7xl font-bold uppercase leading-[1.5em]">Hệ thống quản lý <br> xét nghiệm <br> trong bệnh viện</h1>
+                <h1 class="lg:text-7xl text-3xl font-bold uppercase leading-[1.5em]">Hệ thống quản lý <br> xét nghiệm <br> trong bệnh viện</h1>
             </div>
         </secction>
-        <section class="bg-slate-200 w-screen px-28 py-10" data-aos="fade-up">
+        <section class="bg-slate-200 w-screen lg:px-28 px-10 py-10" data-aos="fade-up">
             <div class="flex justify-between items-center gap-x-2">
-                <div class="w-1/3 h-6 bg-gradient-to-r from-[--primary-color] via-indigo-500 to-slate-300"></div>
-                <h2 class="text-3xl font-bold uppercase tracking-[1.15rem]">Mục tiêu</h2>
-                <span class="w-1/3 h-6 bg-gradient-to-l from-[--primary-color] via-indigo-500 to-slate-300"></span>
+                <div class="lg:w-1/3 w-1/4 h-6 bg-gradient-to-r from-[--primary-color] via-indigo-500 to-slate-300"></div>
+                <h2 class="lg:text-3xl text-2xl font-bold uppercase lg:tracking-[1.15rem]">Mục tiêu</h2>
+                <span class="lg:w-1/3 w-1/4 h-6 bg-gradient-to-l from-[--primary-color] via-indigo-500 to-slate-300"></span>
             </div>
-            <div class="flex items-center justify-center gap-x-10 mt-6">
-                <div><p>Nhập kết quả xét nghiệm nhanh và chính xác.</p></div>
-                <div><p>Quản lý mẫu bệnh phẩm hiệu quả.</p></div>
-                <div><p>Giảm thời gian xử lý hồ sơ xét nghiệm.</p></div>
-                <div><p>Hạn chế sai sót trong quá trình nhập dữ liệu.</p></div>
+            <div class="grid lg:grid-cols-4 lg:grid-rows-1 grid-cols-2 grid-rows-2 lg:gap-10 gap-4 mt-6">
+                <div><p class="text-center m-0">Nhập kết quả xét nghiệm nhanh và chính xác.</p></div>
+                <div><p class="text-center m-0">Quản lý mẫu bệnh phẩm hiệu quả.</p></div>
+                <div><p class="text-center m-0">Giảm thời gian xử lý hồ sơ xét nghiệm.</p></div>
+                <div><p class="text-center m-0">Hạn chế sai sót trong quá trình nhập dữ liệu.</p></div>
             </div>
         </section>
         <section class="w-screen" data-aos="slide-up">
-            <div id="needing-section" class="relative overflow-hidden w-screen px-28 py-10">
+            <div id="needing-section" class="relative overflow-hidden w-screen px-28 lg:pt-10 pt-6">
                 <div class="text-center w-full z-10">
-                    <h2 class="text-3xl text-white font-bold uppercase tracking-[1.15rem]">Nhu cầu</h2>
+                    <h2 class="lg:text-3xl text-2xl text-white font-bold uppercase lg:tracking-[1.15rem] lg:pb-10 pb-6">Nhu cầu</h2>
                 </div>
-                <div class="absolute bottom-2/3 left-0 h-1 w-full">
+                <div class="absolute lg:bottom-2/3 bottom-[-15%] left-0 lg:h-1 h-10 w-full">
                     <svg class="rotate-180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 19.6" preserveAspectRatio="none">
                         <path fill="white" style="opacity:0.11" d="M0 0L0 18.8 141.8 4.1 283.5 18.8 283.5 0z"></path>
                         <path fill="white" style="opacity:0.22" d="M0 0L0 12.6 141.8 4 283.5 12.6 283.5 0z"></path>
@@ -87,66 +87,66 @@
                     </svg>
                 </div>
             </div>
-            <div class="px-28 py-10 bg-white">
-                <div class="grid grid-flow-col grid-cols-4 gap-20">
+            <div class="lg:px-28 px-4 py-10 bg-white">
+                <div class="grid grid-flow-col lg:grid-cols-4 lg:grid-rows-1 grid-cols-2 grid-rows-2 lg:gap-20 gap-10">
                     <div data-aos="flip-left" ata-aos-easing="linear" data-aos-duration="1500" class="bg-slate-300 rounded-lg h-40 relative flex items-center justify-center shadow-lg">
-                        <img id="computer-icon" alt="" class="absolute -left-10 top-1/2 -translate-y-1/2 w-24 h-24">
-                        <p class="m-0 pl-16 pr-3 text-xl text-justify">Hệ thống phần mềm dễ sử dụng</p>
+                        <img id="computer-icon" alt="" class="absolute lg:-left-10 -left-4 top-1/2 -translate-y-1/2 lg:w-24 lg:h-24 w-14 h-14">
+                        <p class="m-0 lg:pl-16 pl-12 pr-3 lg:text-xl text-base text-justify">Hệ thống phần mềm dễ sử dụng</p>
                     </div>
                     <div data-aos="flip-left" ata-aos-easing="linear" data-aos-duration="1500" class="bg-slate-300 rounded-lg h-40 relative flex items-center justify-center shadow-lg">
-                        <img id="medical-phone-icon" alt="" class="absolute -left-10 top-1/2 -translate-y-1/2 w-24 h-24">
-                        <p class="m-0 pl-16 pr-3 text-xl text-justify">Hiển thị rõ thông tin bệnh nhân và loại xét nghiệm</p>
+                        <img id="medical-phone-icon" alt="" class="absolute lg:-left-10 -left-4 top-1/2 -translate-y-1/2 lg:w-24 lg:h-24 w-14 h-14">
+                        <p class="m-0 lg:pl-16 pl-12 pr-3 lg:text-xl text-base text-justify">Hiển thị rõ thông tin bệnh nhân và loại xét nghiệm</p>
                     </div>
                     <div data-aos="flip-left" ata-aos-easing="linear" data-aos-duration="1500" class="bg-slate-300 rounded-lg h-40 relative flex items-center justify-center shadow-lg">
-                        <img id="blue-potion-icon" alt="" class="absolute -left-10 top-1/2 -translate-y-1/2 w-24 h-24">
-                        <p class="m-0 pl-16 pr-3 text-xl text-justify">Có chức năng kiểm tra và xác nhận kết quả trước khi gửi cho bác sĩ</p>
+                        <img id="blue-potion-icon" alt="" class="absolute lg:-left-10 -left-4 top-1/2 -translate-y-1/2 lg:w-24 lg:h-24 w-14 h-14">
+                        <p class="m-0 lg:pl-16 pl-12 pr-3 lg:text-xl text-base text-justify">Có chức năng kiểm tra và xác nhận kết quả trước khi gửi cho bác sĩ</p>
                     </div>
                     <div data-aos="flip-left" ata-aos-easing="linear" data-aos-duration="1500" class="bg-slate-300 rounded-lg h-40 relative flex items-center justify-center shadow-lg">
-                        <img id="computer-detail-icon"" alt="" class="absolute -left-10 top-1/2 -translate-y-1/2 w-24 h-24">
-                        <p class="m-0 pl-16 pr-3 text-xl text-justify">Tích hợp với các máy xét nghiệm tự động trong phòng lab</p>
+                        <img id="computer-detail-icon" alt="" class="absolute lg:-left-10 -left-4 top-1/2 -translate-y-1/2 lg:w-24 lg:h-24 w-14 h-14">
+                        <p class="m-0 lg:pl-16 pl-12 pr-3 lg:text-xl text-base text-justify">Tích hợp với các máy xét nghiệm tự động trong phòng lab</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="problem-section" class="w-screen px-28 py-10">
-            <div class="w-[40vw] h-[40vw] mx-auto rounded-full bg-[--primary-color] relative" data-aos="zoom-in">
-                <div class="absolute bg-[--secondary-color] top-4 left-1/2 -translate-x-1/2 transform transition ease-linear hover:scale-110 w-40 h-40 rounded-full border border-[--secondary-color] flex justify-center items-center p-4 text-center">
-                    <p class="m-0 text-base">Khối lượng mẫu xét nghiệm lớn vào giờ cao điểm</p>
+        <section id="problem-section" class="w-screen lg:px-28 px-10 py-10">
+            <div class="lg:w-[40vw] lg:h-[40vw] w-[80vw] h-[80vw] mx-auto rounded-full bg-[--primary-color] relative" data-aos="zoom-in">
+                <div class="absolute bg-[--secondary-color] top-4 left-1/2 -translate-x-1/2 transform transition ease-linear hover:scale-110 lg:w-40 lg:h-40 w-28 h-28 rounded-full border border-[--secondary-color] flex justify-center items-center p-4 text-center">
+                    <p class="m-0 lg:text-base text-sm">Khối lượng mẫu xét nghiệm lớn vào giờ cao điểm</p>
                 </div>
-                <div class="absolute bg-[--secondary-color] top-1/2 left-4 -translate-y-1/2 transform transition ease-linear hover:scale-110 w-40 h-40 rounded-full border border-[--secondary-color] flex justify-center items-center p-4 text-center">
-                    <p class="m-0 text-base">Một số phần mềm quản lý bệnh viện hoạt động chậm</p>
+                <div class="absolute bg-[--secondary-color] top-1/2 left-4 -translate-y-1/2 transform transition ease-linear hover:scale-110 lg:w-40 lg:h-40 w-28 h-28 rounded-full border border-[--secondary-color] flex justify-center items-center p-4 text-center">
+                    <p class="m-0 lg:text-base text-sm">Một số phần mềm quản lý bệnh viện hoạt động chậm</p>
                 </div>
-                <div class="absolute bg-[--secondary-color] top-1/2 right-4 -translate-y-1/2 transform transition ease-linear hover:scale-110 w-40 h-40 rounded-full border border-[--secondary-color] flex justify-center items-center p-4 text-center">
-                    <p class="m-0 text-base">Dữ liệu bệnh nhân đôi khi nhập sai hoặc thiếu thông tin</p>
+                <div class="absolute bg-[--secondary-color] top-1/2 right-4 -translate-y-1/2 transform transition ease-linear hover:scale-110 lg:w-40 lg:h-40 w-28 h-28 rounded-full border border-[--secondary-color] flex justify-center items-center p-4 text-center">
+                    <p class="m-0 lg:text-base text-sm">Dữ liệu bệnh nhân đôi khi nhập sai hoặc thiếu thông tin</p>
                 </div>
-                <div class="absolute bg-[--secondary-color] bottom-4 left-1/2 -translate-x-1/2 transform transition ease-linear hover:scale-110 w-40 h-40 rounded-full border border-[--secondary-color] flex justify-center items-center p-4 text-center">
-                    <p class="m-0 text-base">Cần kiểm tra nhiều lần để tránh nhầm kết quả</p>
+                <div class="absolute bg-[--secondary-color] bottom-4 left-1/2 -translate-x-1/2 transform transition ease-linear hover:scale-110 lg:w-40 lg:h-40 w-28 h-28 rounded-full border border-[--secondary-color] flex justify-center items-center p-4 text-center">
+                    <p class="m-0 lg:text-base text-sm">Cần kiểm tra nhiều lần để tránh nhầm kết quả</p>
                 </div>
                 
-                <h3 class="m-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white uppercase text-3xl font-bold tracking-[1.15rem]">Vấn đề</h3>
+                <h3 class="m-0 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white uppercase lg:text-3xl text-xl text-center font-bold lg:tracking-[1.15rem]">Vấn đề</h3>
             </div>
         </section>
-        <section class="w-screen px-28 pt-14 py-10" data-aos="slide-up">
-            <div class="relative border-4 border-dashed border-[--text-color] rounded-xl px-4 pt-14 py-6 grid grid-cols-2 grid-row-2 gap-20">
-                <h2 class="absolute -top-8 bg-[--primary-color] px-10 py-3 rounded-3xl left-1/2 -translate-x-1/2 text-3xl text-white font-bold uppercase tracking-[1.15rem]">Công việc</h2>
+        <section class="w-screen lg:px-28 px-10 pt-14 py-10" data-aos="slide-up">
+            <div class="relative border-4 border-dashed border-[--text-color] rounded-xl px-4 lg:pt-14 pt-10 py-6 grid grid-cols-2 grid-row-2 ls:gap-20 gap-6">
+                <h2 class="absolute -top-8 bg-[--primary-color] lg:px-10 px-5 py-3 rounded-3xl left-1/2 -translate-x-1/2 lg:text-3xl text-2xl text-white font-bold uppercase lg:tracking-[1.15rem]">Công việc</h2>
                 <div data-aos="zoom-out" class="h-40 bg-gradient-to-r from-[#80dbf3] to-[#f1efb5] rounded-lg relative flex items-center justify-center shadow-lg">
-                    <p class="m-0 px-10 text-center text-2xl text-[--text-color]">Làm việc theo ca trong phòng xét nghiệm.</p>
+                    <p class="m-0 lg:px-10 px-4 text-center lg:text-2xl text-base text-[--text-color]">Làm việc theo ca trong phòng xét nghiệm.</p>
                 </div>
                 <div data-aos="zoom-out" class="h-40 bg-gradient-to-r from-[#80dbf3] to-[#f1efb5] rounded-lg relative flex items-center justify-center shadow-lg">
-                    <p class="m-0 px-10 text-center text-2xl text-[--text-color]">Sử dụng máy tính và các thiết bị xét nghiệm tự động.</p>
+                    <p class="m-0 lg:px-10 px-4 text-center lg:text-2xl text-base text-[--text-color]">Sử dụng máy tính và các thiết bị xét nghiệm tự động.</p>
                 </div>
                 <div data-aos="zoom-out" class="h-40 bg-gradient-to-r from-[#80dbf3] to-[#f1efb5] rounded-lg relative flex items-center justify-center shadow-lg">
-                    <p class="m-0 px-10 text-center text-2xl text-[--text-color]">Thường xuyên nhập và kiểm tra dữ liệu trên hệ thống quản lý bệnh viện.</p>
+                    <p class="m-0 lg:px-10 px-4 text-center lg:text-2xl text-base text-[--text-color]">Thường xuyên nhập và kiểm tra dữ liệu trên hệ thống quản lý bệnh viện.</p>
                 </div>
                 <div data-aos="zoom-out" class="h-40 bg-gradient-to-r from-[#80dbf3] to-[#f1efb5] rounded-lg relative flex items-center justify-center shadow-lg">
-                    <p class="m-0 px-10 text-center text-2xl text-[--text-color]">Phối hợp với bác sĩ và điều dưỡng khi có kết quả bất thường.</p>
+                    <p class="m-0 lg:px-10 px-4 text-center lg:text-2xl text-base text-[--text-color]">Phối hợp với bác sĩ và điều dưỡng khi có kết quả bất thường.</p>
                 </div>
             </div>
         </section>
-        <section class="w-screen px-28 pt-10 pb-20 relative">
-            <div class="border-4 border-dashed border-[--secondary-color] rounded-2xl w-fit ml-20" data-aos="fade-right"><img id="use-section" class="w-[35rem] h-[22rem] rounded-xl" alt=""></div>
-            <div class="w-[48vw] bg-white shadow absolute top-20 right-48 rounded-xl shadow px-14 py-16" data-aos="fade-left">
-                <h2 class="text-3xl font-bold uppercase tracking-[1.15rem] border-l-4 border-[--secondary-color] pl-4">Quy trình</h2>
+        <section class="w-screen lg:px-28 px-4 lg:pt-10 pt-4 lg:pb-20 pb-28 relative">
+            <div class="border-4 border-dashed border-[--secondary-color] rounded-2xl w-fit lg:ml-20 ml-4" data-aos="fade-right"><img id="use-section" class="lg:w-[35rem] lg:h-[22rem] w-[16rem] h-[16rem] rounded-xl" alt=""></div>
+            <div class="lg:w-[48vw] w-[75vw] bg-white shadow absolute lg:top-20 lg:right-48 top-10 right-5 rounded-xl shadow lg:px-14 lg:py-16 px-4 py-8" data-aos="fade-left">
+                <h2 class="lg:text-3xl text-xl font-bold uppercase lg:tracking-[1.15rem] border-l-4 border-[--secondary-color] pl-4">Quy trình</h2>
                 <div class="mt-6 pl-4">
                     <ol class="list-decimal">
                         <li>Nhận mẫu máu của bệnh nhân từ khoa khám bệnh</li>
@@ -158,7 +158,7 @@
         </section>
     </main>
     <footer class="w-screen px-28 pt-4 pb-2 bg-[--primary-color] text-center">
-        <p class="text-black/50 text-xs m-0">&copy; 2026 <span class="text-white">NGUYEN VAN AN</span>. All rights reserved.</p>
+        <p class="text-black/50 lg:text-xs text-[0.5rem] m-0">&copy; 2026 <span class="text-white">NGUYEN VAN AN</span>. All rights reserved.</p>
     </footer>
     
     <button id="scrollTop" class="w-14 h-14 rounded-full bg-[--text-color] text-white uppercase shadow fixed bottom-4 right-4 hidden">Lên <br> đầu</button>
